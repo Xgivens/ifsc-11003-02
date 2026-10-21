@@ -1,0 +1,9 @@
+/* A relative wrapper contains the absolutely positioned corners. */
+#wrapper { position: relative; height: 800px; }
+#navy, #teal, #blue, #aqua, #footer { position: absolute; width: 150px; height: 150px; }
+#navy { top: 0; left: 0; }
+#teal { top: 0; right: 0; }
+#blue { bottom: 0; left: 0; }
+#aqua { bottom: 0; right: 0; }
+#footer { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+@media (max-width: 600px) { #wrapper { height: 500px; } #wrapper > div { width: 90px; height: 90px; } }

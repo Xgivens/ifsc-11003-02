@@ -1,0 +1,13 @@
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+body { margin: 0; background: #ececec; font-weight: bold; font-family: Tahoma, Geneva, sans-serif; color: white; text-align: center; line-height: 24px; }
+h1 { color: black; font-weight: normal; padding: 50px 10px; }
+#wrapper { background: white; border: 1px solid #c0c0c0; width: 800px; max-width: 94%; margin: 0 auto; text-shadow: 2px 2px black; }
+#navy { background: #001f3f; }
+#teal { background: #39cccc; }
+#blue { background: #0074d9; }
+#aqua { background: #7fdbff; }
+#footer { background: #666; }
+.lab-nav { color: #172635; padding: 1rem; }
+.lab-nav a { color: #245680; }
+a:focus-visible { outline: 3px solid #b85b00; outline-offset: 3px; }
