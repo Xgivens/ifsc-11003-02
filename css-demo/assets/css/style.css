@@ -35,3 +35,18 @@ header.primary nav a { display: block; padding: .5rem 1rem; border: 1px solid #9
 .post-meta { margin-top: auto; padding-top: 1rem; border-top: 1px solid #c6d1da; }
 aside .container { display: flex; flex-wrap: wrap; gap: 1rem; }
 .widget { flex: 1 1 280px; }
+
+/* Typography and a small blue palette establish a consistent hierarchy. */
+h1, h2, h3 { line-height: 1.2; }
+h1 { font-size: 2.4rem; margin: 0 1rem 1rem; }
+h1 a { text-decoration: none; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.3rem; }
+.subtitle { font-size: 1.1rem; margin: 0 1rem 1.5rem; }
+figcaption, .post-date, .post-meta { font-size: .9rem; color: #475c6b; }
+figcaption { margin-top: .5rem; }
+header.primary nav a { text-decoration: none; }
+a:hover { text-decoration: none; }
+header.primary nav a:hover, header.primary nav a:focus-visible { background: #315a7b; }
+footer.primary a { color: white; }
+.post img { width: 100%; }
