@@ -1,0 +1,10 @@
+/* Without a positioned ancestor the corners are relative to the initial containing block. */
+#wrapper { padding: 20px; }
+#navy, #teal, #blue, #aqua, #footer { width: 150px; height: 150px; }
+#navy { position: absolute; top: 0; left: 0; }
+#teal { position: absolute; top: 0; right: 0; }
+#blue { position: absolute; bottom: 0; left: 0; }
+#aqua { position: absolute; bottom: 0; right: 0; }
+#footer { margin: 0 auto; }
+.lab-nav { max-width: calc(100% - 320px); margin: auto; }
+@media (max-width: 600px) { #navy, #teal, #blue, #aqua { width: 70px; height: 70px; } .lab-nav { max-width: 90%; } }

@@ -1,0 +1,7 @@
+/* Two columns of floated boxes. Clear starts the second row and footer. */
+#wrapper { padding: 20px; }
+#navy, #teal, #blue, #aqua { width: calc(50% - 10px); height: 150px; margin-bottom: 20px; }
+#navy, #blue { float: left; }
+#teal, #aqua { float: right; }
+#blue { clear: left; }
+#footer { clear: both; }

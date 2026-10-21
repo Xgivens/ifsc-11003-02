@@ -1,0 +1,5 @@
+/* Four floated boxes share one row. */
+#wrapper { padding: 20px; }
+#navy, #teal, #blue, #aqua { float: left; width: calc((100% - 60px) / 4); height: 150px; margin: 0 20px 20px 0; }
+#aqua { margin-right: 0; }
+#footer { clear: both; }
